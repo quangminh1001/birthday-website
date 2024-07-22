@@ -1,0 +1,5 @@
+function generateAnswer() {
+    const answers = ["Yes", "No"];
+    const randomIndex = Math.floor(Math.random() * answers.length);
+    document.getElementById("answer").innerText = answers[randomIndex];
+}
